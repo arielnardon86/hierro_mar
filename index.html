@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hierromar — Hierros, perfiles y estructuras en Mar del Plata</title>
+<meta name="description" content="Hierromar: hierros, perfiles, ángulos, chapas, caños, aislantes y herramientas para tu obra. Dellepiane 298, Mar del Plata. Solicitá tu presupuesto por WhatsApp.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#inicio" class="logo">
+      <img src="assets/logo-white.png" alt="Hierromar" class="logo__img">
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#inicio" class="nav__link">Inicio</a>
+      <a href="#productos" class="nav__link">Productos</a>
+      <a href="#nosotros" class="nav__link">Nosotros</a>
+      <a href="#presupuesto" class="nav__link">Presupuesto</a>
+      <a href="#contacto" class="nav__link">Contacto</a>
+      <a href="https://wa.me/5492236930134?text=Hola%20Hierromar%2C%20quiero%20consultar%20sobre%20un%20producto." target="_blank" rel="noopener" class="nav__cta">Hablar por WhatsApp</a>
+    </nav>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero__plate" aria-hidden="true"></div>
+  <div class="container hero__inner">
+    <p class="eyebrow">Hierros · Perfiles · Chapas · Estructuras</p>
+    <h1 class="hero__title">Todo el material que tu obra necesita, en un solo lugar</h1>
+    <p class="hero__subtitle">Hierros, perfiles, ángulos, chapas, caños, aislantes, autoperforantes y herramientas. Atención directa y presupuestos a medida en Mar del Plata.</p>
+    <div class="hero__actions">
+      <a href="#presupuesto" class="btn btn--primary">Solicitar presupuesto</a>
+      <a href="#productos" class="btn btn--ghost">Ver productos</a>
+    </div>
+    <ul class="hero__stats">
+      <li><strong>Lun a Vie</strong><span>08 a 16 hs</span></li>
+      <li><strong>Sáb</strong><span>08 a 12:30 hs</span></li>
+      <li><strong>Dellepiane 298</strong><span>Mar del Plata</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- PRODUCTOS -->
+<section class="section" id="productos">
+  <div class="container">
+    <span class="section__tag">Catálogo</span>
+    <h2 class="section__title">Nuestros productos</h2>
+    <p class="section__lead">Consultá disponibilidad y precio de cualquiera de estas líneas. Si no encontrás lo que buscás, escribinos igual.</p>
+
+    <div class="grid grid--products" id="productGrid">
+
+      <article class="card" data-producto="Hierros">
+        <div class="card__icon">
+          <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="9" stroke="currentColor" stroke-width="3"/><path d="M6 24h6M36 24h6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Hierros</h3>
+        <p>Hierros redondos, lisos y conformados en todas las medidas para hormigón armado.</p>
+        <button class="card__link" data-producto="Hierros">Consultar precio →</button>
+      </article>
+
+      <article class="card" data-producto="Perfiles">
+        <div class="card__icon">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M10 8v32M10 8h14M10 40h14" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Perfiles</h3>
+        <p>Perfiles U, C e IPN en distintas medidas y espesores para estructura y carpintería metálica.</p>
+        <button class="card__link" data-producto="Perfiles">Consultar precio →</button>
+      </article>
+
+      <article class="card" data-producto="Ángulos">
+        <div class="card__icon">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M10 8v32h28" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Ángulos</h3>
+        <p>Ángulos de alas iguales y desiguales, ideales para refuerzos y estructuras livianas.</p>
+        <button class="card__link" data-producto="Ángulos">Consultar precio →</button>
+      </article>
+
+      <article class="card" data-producto="Autoperforantes">
+        <div class="card__icon">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M24 6v10M18 12h12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M24 16 L30 40 L24 44 L18 40 Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Autoperforantes</h3>
+        <p>Tornillos autoperforantes para fijación de chapas en estructuras metálicas y de madera.</p>
+        <button class="card__link" data-producto="Autoperforantes">Consultar precio →</button>
+      </article>
+
+      <article class="card" data-producto="Aislantes">
+        <div class="card__icon">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M8 16c8 6 8-6 16 0s8-6 16 0M8 32c8 6 8-6 16 0s8-6 16 0" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Aislantes</h3>
+        <p>Aislantes térmicos y acústicos para techos, paredes y entrepisos.</p>
+        <button class="card__link" data-producto="Aislantes">Consultar precio →</button>
+      </article>
+
+      <article class="card" data-producto="Estructurales">
+        <div class="card__icon">
+          <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="32" height="32" rx="2" stroke="currentColor" stroke-width="3"/><path d="M8 24h32M24 8v32" stroke="currentColor" stroke-width="3"/></svg>
+        </div>
+        <h3>Estructurales</h3>
+        <p>Caños y perfiles estructurales de gran porte para montajes y galpones industriales.</p>
+        <button class="card__link" data-producto="Estructurales">Consultar precio →</button>
+      </article>
+
+      <article class="card" data-producto="Chapas">
+        <div class="card__icon">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M6 34 L6 20 L14 14 L42 14 L42 28 L34 34 Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M14 14v20M22 14v20M30 14v20" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Chapas</h3>
+        <p>Chapas lisas, acanaladas y trapezoidales para techos y cerramientos.</p>
+        <button class="card__link" data-producto="Chapas">Consultar precio →</button>
+      </article>
+
+      <article class="card" data-producto="Caños">
+        <div class="card__icon">
+          <svg viewBox="0 0 48 48" fill="none"><ellipse cx="14" cy="24" rx="6" ry="12" stroke="currentColor" stroke-width="3"/><path d="M14 12v24M14 12a26 12 0 0120 0v24a26 12 0 01-20 0" stroke="currentColor" stroke-width="3"/></svg>
+        </div>
+        <h3>Caños</h3>
+        <p>Caños redondos y cuadrados, con y sin costura, para obra e industria.</p>
+        <button class="card__link" data-producto="Caños">Consultar precio →</button>
+      </article>
+
+      <article class="card" data-producto="Herramientas">
+        <div class="card__icon">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M30 8a8 8 0 00-10 10L8 30l6 6 12-12a8 8 0 0010-10l-6 6-6-6z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Herramientas</h3>
+        <p>Herramientas manuales y accesorios para trabajos de obra y en metal.</p>
+        <button class="card__link" data-producto="Herramientas">Consultar precio →</button>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section class="section section--alt" id="nosotros">
+  <div class="container about">
+    <div class="about__media">
+      <img src="assets/fachada.jpg" alt="Frente del local de Hierromar en Dellepiane 298, Mar del Plata" loading="lazy">
+    </div>
+    <div class="about__text">
+      <span class="section__tag">Nosotros</span>
+      <h2 class="section__title">Materiales de hierro y acero, con atención de fierrero</h2>
+      <p>En Hierromar te asesoramos para conseguir el material exacto que necesita tu obra, sin vueltas. Trabajamos con hierros, perfiles, chapas, caños y estructurales, además de los accesorios y herramientas para completar el trabajo.</p>
+      <p>Nos encontrás en Dellepiane 298, Mar del Plata. Si tenés dudas sobre medidas, cantidades o disponibilidad, escribinos por WhatsApp y te respondemos directamente.</p>
+      <ul class="about__list">
+        <li>Atención personalizada</li>
+        <li>Presupuestos a medida</li>
+        <li>Stock permanente de líneas principales</li>
+      </ul>
+      <a href="https://wa.me/5492236930134?text=Hola%20Hierromar%2C%20quiero%20saber%20m%C3%A1s%20sobre%20sus%20productos." target="_blank" rel="noopener" class="btn btn--primary">Consultar ahora</a>
+    </div>
+  </div>
+</section>
+
+<!-- PRESUPUESTO -->
+<section class="section" id="presupuesto">
+  <div class="container">
+    <span class="section__tag">Presupuesto</span>
+    <h2 class="section__title">Solicitá tu presupuesto</h2>
+    <p class="section__lead">Completá el formulario y se abre WhatsApp con tu consulta lista para enviar. Te respondemos a la brevedad.</p>
+
+    <form class="quote" id="quoteForm">
+      <div class="quote__row">
+        <div class="field">
+          <label for="qName">Nombre</label>
+          <input type="text" id="qName" name="qName" placeholder="Tu nombre" required>
+        </div>
+        <div class="field">
+          <label for="qPhone">Teléfono</label>
+          <input type="tel" id="qPhone" name="qPhone" placeholder="Tu teléfono (opcional)">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="qProduct">Producto</label>
+        <select id="qProduct" name="qProduct" required>
+          <option value="" disabled selected>Elegí una categoría</option>
+          <option>Hierros</option>
+          <option>Perfiles</option>
+          <option>Ángulos</option>
+          <option>Autoperforantes</option>
+          <option>Aislantes</option>
+          <option>Estructurales</option>
+          <option>Chapas</option>
+          <option>Caños</option>
+          <option>Herramientas</option>
+          <option>Otro / no estoy seguro</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="qDetail">Detalle (medidas, cantidad, uso)</label>
+        <textarea id="qDetail" name="qDetail" rows="4" placeholder="Ej: hierro de 8mm, 20 varillas de 12 metros"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn--primary btn--wide">
+        <svg viewBox="0 0 32 32" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.68 4.612 1.857 6.502L4 29l7.68-1.815A11.94 11.94 0 0016.001 27C22.629 27 28 21.627 28 15S22.629 3 16.001 3zm0 21.75c-1.99 0-3.85-.57-5.42-1.552l-.39-.232-4.55 1.076 1.11-4.43-.255-.406A9.7 9.7 0 016.25 15c0-5.38 4.372-9.75 9.751-9.75 5.378 0 9.75 4.37 9.75 9.75 0 5.379-4.372 9.75-9.75 9.75zm5.34-7.297c-.293-.147-1.734-.856-2.003-.954-.269-.098-.464-.147-.66.147-.196.293-.758.954-.929 1.15-.171.196-.343.22-.636.073-.293-.147-1.236-.456-2.354-1.454-.87-.776-1.458-1.735-1.629-2.028-.171-.293-.018-.452.129-.598.132-.132.293-.343.44-.514.147-.171.196-.293.293-.489.098-.196.049-.367-.024-.514-.073-.147-.66-1.59-.904-2.177-.238-.57-.48-.494-.66-.503-.171-.008-.367-.01-.563-.01a1.08 1.08 0 00-.783.367c-.269.293-1.028 1.005-1.028 2.45 0 1.445 1.052 2.842 1.199 3.038.147.196 2.07 3.16 5.016 4.432.701.303 1.248.484 1.675.62.704.224 1.344.192 1.85.117.564-.084 1.734-.709 1.979-1.393.244-.685.244-1.271.171-1.393-.073-.122-.269-.196-.562-.343z"/></svg>
+        Enviar consulta por WhatsApp
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- CONTACTO / HORARIOS -->
+<section class="section section--alt" id="contacto">
+  <div class="container contact">
+    <div class="contact__info">
+      <span class="section__tag">Contacto</span>
+      <h2 class="section__title">Dónde estamos y cuándo atendemos</h2>
+
+      <div class="contact__item">
+        <div class="contact__icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 22s7-6.2 7-12a7 7 0 10-14 0c0 5.8 7 12 7 12z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.8"/></svg>
+        </div>
+        <div>
+          <strong>Dirección</strong>
+          <p>Dellepiane 298, Mar del Plata</p>
+        </div>
+      </div>
+
+      <div class="contact__item">
+        <div class="contact__icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 8v5l3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/></svg>
+        </div>
+        <div>
+          <strong>Horarios</strong>
+          <p>Lunes a Viernes: 08:00 a 16:00 hs<br>Sábados: 08:00 a 12:30 hs<br>Domingos: cerrado</p>
+        </div>
+      </div>
+
+      <div class="contact__item">
+        <div class="contact__icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 5h4l2 5-2.5 1.5a11 11 0 005 5L13 14l5 2v4a2 2 0 01-2 2A16 16 0 013 7a2 2 0 012-2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <strong>WhatsApp</strong>
+          <p><a href="https://wa.me/5492236930134" target="_blank" rel="noopener">+54 9 223 693-0134</a></p>
+        </div>
+      </div>
+
+      <div class="contact__item">
+        <div class="contact__icon">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+        </div>
+        <div>
+          <strong>Instagram</strong>
+          <p><a href="https://instagram.com/hierromar_mdq" target="_blank" rel="noopener">@hierromar_mdq</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact__map">
+      <iframe
+        title="Ubicación de Hierromar"
+        src="https://www.google.com/maps?q=Dellepiane%20298%2C%20Mar%20del%20Plata&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="#inicio" class="logo logo--footer">
+      <img src="assets/logo-white.png" alt="Hierromar" class="logo__img">
+    </a>
+    <p class="footer__address">Dellepiane 298, Mar del Plata · Lun a Vie 08–16 hs · Sáb 08–12:30 hs</p>
+    <div class="footer__social">
+      <a href="https://instagram.com/hierromar_mdq" target="_blank" rel="noopener" aria-label="Instagram de Hierromar">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+      </a>
+      <a href="https://wa.me/5492236930134" target="_blank" rel="noopener" aria-label="WhatsApp de Hierromar">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 5h4l2 5-2.5 1.5a11 11 0 005 5L13 14l5 2v4a2 2 0 01-2 2A16 16 0 013 7a2 2 0 012-2z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Hierromar. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/5492236930134?text=Hola%20Hierromar%2C%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Escribinos por WhatsApp">
+  <svg viewBox="0 0 32 32" fill="currentColor" width="28" height="28" aria-hidden="true"><path d="M16.001 3C9.373 3 4 8.373 4 15c0 2.386.68 4.612 1.857 6.502L4 29l7.68-1.815A11.94 11.94 0 0016.001 27C22.629 27 28 21.627 28 15S22.629 3 16.001 3zm0 21.75c-1.99 0-3.85-.57-5.42-1.552l-.39-.232-4.55 1.076 1.11-4.43-.255-.406A9.7 9.7 0 016.25 15c0-5.38 4.372-9.75 9.751-9.75 5.378 0 9.75 4.37 9.75 9.75 0 5.379-4.372 9.75-9.75 9.75zm5.34-7.297c-.293-.147-1.734-.856-2.003-.954-.269-.098-.464-.147-.66.147-.196.293-.758.954-.929 1.15-.171.196-.343.22-.636.073-.293-.147-1.236-.456-2.354-1.454-.87-.776-1.458-1.735-1.629-2.028-.171-.293-.018-.452.129-.598.132-.132.293-.343.44-.514.147-.171.196-.293.293-.489.098-.196.049-.367-.024-.514-.073-.147-.66-1.59-.904-2.177-.238-.57-.48-.494-.66-.503-.171-.008-.367-.01-.563-.01a1.08 1.08 0 00-.783.367c-.269.293-1.028 1.005-1.028 2.45 0 1.445 1.052 2.842 1.199 3.038.147.196 2.07 3.16 5.016 4.432.701.303 1.248.484 1.675.62.704.224 1.344.192 1.85.117.564-.084 1.734-.709 1.979-1.393.244-.685.244-1.271.171-1.393-.073-.122-.269-.196-.562-.343z"/></svg>
+</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
